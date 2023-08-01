@@ -4,10 +4,10 @@
       <router-view />
     </q-page-container>
 
-    <q-footer class="bg-custom text-black">
+    <q-footer class="bg-white text-black">
       <q-toolbar>
         <q-toolbar-title>
-          <div class="flex flex-center">TEST</div>
+          <div class="flex flex-center">FOOTER</div>
         </q-toolbar-title>
       </q-toolbar>
     </q-footer>
@@ -17,7 +17,4 @@
 <script setup lang="ts"></script>
 
 <style>
-.bg-custom {
-  background-color: rgba(16, 18, 28, 0.03);
-}
 </style>
